@@ -30,9 +30,7 @@ class Header extends Component {
             emcamp
           </a>
           <ul className="right">
-            <li>
-              {this.renderContent()}
-            </li>
+            {this.renderContent()}
           </ul>
         </div>
       </nav>
